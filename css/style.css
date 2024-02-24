@@ -1,0 +1,7 @@
+.thum{
+    transition: all .3s cubic-bezier(.445, .05, .55, .95);
+}
+.thum:hover {
+    filter: brightness(100%) hue-rotate(45deg);
+    transform: scale(1.04);
+}
